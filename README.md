@@ -12,7 +12,7 @@ I used a deep learning approach, where I used Keras Bidirectional LSTM(https://k
 
 
 Results-
-I used F1-score as a way to evalute my model perfomances. The deep learning approach had the best model with a score of 54, next was the Naives Bayes modeel with a score of 51 and the SVC model scored at 49. 
+I used F1-score as a way to evalute the models perfomances. The deep learning approach had the best model with a score of 54, next was the Naives Bayes modeel with a score of 51 and the SVC model scored at 49. 
 Note- I have not performed any type of hyper-parameter tuning yet, so these baseline model scores can be improved. Another thing to take in to consideration is that training the LSTM took nearly 1-2 hours to train(using a CPU), whereas the other two approaches were much more faster(like they were build instantaneously) but the LSTM would perform better if we feed it more data as Deep learning models are know to perform better on larger datasets.
 
 Future Scope-
